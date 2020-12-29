@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Roboto:100,300,400,500,700,900');
+
+@import '_commons/normalize.scss';
+@import '_commons/reset.scss';
+@import '_commons/helpers.scss';
+
+@import 'cabecalho/cabecalho.scss';
+@import 'banner/banner.scss';
+@import 'sobre/sobre.scss';
+@import 'receitas/receitas.scss';
+@import 'quem-somos/quem-somos.scss';
+@import 'rodape/rodape.scss';

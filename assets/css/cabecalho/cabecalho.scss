@@ -1,0 +1,61 @@
+.cabecalho{
+
+    @media #{$mq-mobile}{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        margin: 0 1.5rem;
+    }
+
+    @media #{$mq-tablet}{
+        justify-content: space-between;
+    }
+    
+    .logo{
+        @media #{$mq-mobile}{
+            display: none;
+        }
+
+        @media #{$mq-tablet}{
+            display: block;
+        }
+    }
+
+    .menu{
+        .menu__lista{
+            @media #{$mq-mobile}{
+                display: flex;
+                align-items: center;
+                list-style-type: none;
+                font-size: 20px;
+                height: 100px;
+                flex-direction: column;
+                justify-content: space-around;
+            }
+
+            @media #{$mq-tablet}{
+                font-size: 18px;
+                height: auto;
+                flex-direction: row;
+            }
+                        
+            .menu__item{
+                margin:0 1rem;
+
+                .menu__link{
+                    color:#333333;
+                    text-decoration: none;
+                    text-transform: lowercase;
+
+                    &:hover{
+                        text-decoration: underline;
+                    }
+
+                    &.ativo{
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,14 @@
+.rodape{
+    @media #{$mq-mobile}{
+        background-color: #bfbfbf;
+        color: #fdfdfd;
+        text-align: right;
+        text-transform: lowercase;
+        padding: 1.5625rem 5rem;
+        font-size: 11px;
+    }
+
+    @media #{$mq-desktop}{
+        font-size: 16px;
+    }
+}

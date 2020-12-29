@@ -1,0 +1,18 @@
+.sobre{
+    text-align: center;
+    padding: 42px 0 0 0;
+
+    .sobre__titulo{
+        color:#8D0606;
+        font-family: $font-pacifico-roboto;
+        font-size: 51px;
+    }
+
+    .sobre__subtitulo{
+        font-weight: 300;
+        font-family: $font-roboto;
+        line-height: 30px;
+        font-size: 28px;
+        color:#8C8888;
+    }
+}

@@ -1,0 +1,36 @@
+.banner{
+    position: relative;
+
+    .banner__imagem{
+
+        @media #{$mq-mobile}{
+            width: 100%;
+            height: calc(70vh - 60px);
+        }
+
+        @media #{$mq-desktop}{
+            width: 100%;
+            height: calc(100vh - 72px);
+        }
+    }
+    
+    .banner__titulo{
+        @media #{$mq-mobile}{
+            font-family: $font-pacifico-roboto;
+            color:#fdfdfd;
+            font-size: 3.625rem;
+            position: absolute;
+            left:50%;
+            text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+            top:50%;
+            text-align: center;
+            transform: translate(-50%, -50%);
+            width: 100%;
+        }
+
+        @media #{$mq-desktop}{
+            font-size: 5.625rem;
+        }
+        
+    }
+}
